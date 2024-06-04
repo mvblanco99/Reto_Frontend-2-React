@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Roboto-regular';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('./assets/assets/fonts/Roboto-Regular.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Roboto-bold';
+        font-style: bold;
+        font-weight: 800;
+        font-display: swap;
+        src: url('./assets/assets/fonts/Roboto-Bold.woff2') format('woff2');
+      }
+  }
