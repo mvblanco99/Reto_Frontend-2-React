@@ -16,6 +16,7 @@ export default {
       },
       screens:{
         mobile:"480px",
+        'mobile-large':'520px',
         'desktop': '890px',
         'desktop-large': '1410px',
       },

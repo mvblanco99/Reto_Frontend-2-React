@@ -17,7 +17,7 @@ function App() {
         sm:w-[95%] sm:rounded-[30px] desktop:w-[80%] lg:w-[60%] xl:w[50%] 
         desktop-large:w-[47.5%] 2xl:w-[45%]">
         
-        <div className='w-full h-72 sm:order-2 sm:h-fit sm:pr-5 sm:py-6'>
+        <div className='w-full h-72 mobile-large:w-[95%] mobile-large:mx-auto  sm:order-2 sm:h-fit sm:pr-5 sm:py-6'>
           {/* Corregir esto */}
             <img src={imageMobile} alt="" className='sm:hidden w-full h-full'/>
             <img src={imageDesktop} alt="" className='hidden sm:block'/>
